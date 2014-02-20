@@ -1,0 +1,6 @@
+{
+  "name": "conf-dump",
+  "dependencies": {
+    "ember": "~1.4"
+  }
+}

@@ -11,8 +11,3 @@ var App = Ember.Application.create({
     }.property('firstName', 'lastName')
   })
 });
-
-App.Router.reopen({
-  location: 'none'
-});
-

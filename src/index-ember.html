@@ -2,18 +2,21 @@
 <html>
 <head>
   <title>Ember Setup</title>
+  <link rel="stylesheet" href="css/slides.css"/>
 </head>
 <body>
 
   <script type="text/x-handlebars" id="application">
-    <div>
-      <label>First Name:</label> {{input value=App.user.firstName placeholder="your first name"}}
-    </div>
-    <div>
-      <label>Last Name:</label> {{input value=App.user.lastName placeholder="your last name"}}
-    </div>
-    <div>
-      <label>Full Name:</label> {{input value=App.user.fullName placeholder="your full name" readonly="readonly"}}
+    <div id="form">
+      <div>
+        <label>First Name:</label> {{input value=App.user.firstName placeholder="your first name"}}
+      </div>
+      <div>
+        <label>Last Name:</label> {{input value=App.user.lastName placeholder="your last name"}}
+      </div>
+      <div>
+        <label>Full Name:</label> {{input value=App.user.fullName placeholder="your full name" readonly="readonly"}}
+      </div>
     </div>
   </script>
 

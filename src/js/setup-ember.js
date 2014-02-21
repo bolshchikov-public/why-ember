@@ -12,3 +12,7 @@ var App = Ember.Application.create({
   })
 });
 
+App.Router.reopen({
+  location: 'none'
+});
+

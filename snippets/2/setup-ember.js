@@ -11,6 +11,3 @@ var App = Ember.Application.create({
     }.property('firstName', 'lastName')
   })
 });
-App.addObserver('user.firstName', App, function () {
-  console.log('first name has changed to: ' + this.get('user.firstName'));
-});
